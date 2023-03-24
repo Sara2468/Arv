@@ -1,0 +1,38 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>330</x><y>90</y><w>210</w><h>140</h></coordinates><panel_attributes>Fordon
+--
+color:str
+--
+-init-constructor(fabrikat, color) 
+setFabrikat(str)
+getFabrikat():str
+SetColor(str)
+getColor():str</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>80</y><w>200</w><h>160</h></coordinates><panel_attributes>main.py
+--
+
+looping:boolean
+personbils_lista[personbil]
+lastbils_lista[lastbil]
+--
+main()
+print_fordons_listta()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>320</y><w>180</w><h>180</h></coordinates><panel_attributes>Personbil
+--
+fabrikat:str
+color  str
+bagagevolym:int
+--
+_init_Constructor(fabrikat, color, bagagevolym)
+setBagageVolym(int)
+getBagageVolym():int
+print_fordon()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>320</y><w>280</w><h>190</h></coordinates><panel_attributes>Lastbil
+--
+fabrikat:str
+color:str
+bagagevolym: int
+--
+_init_constructor(fabrikat, color, Flakvolym)
+setFlakVolym(int)
+getFlakVolym():int
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>220</y><w>230</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>220</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;20;100</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>200</y><w>150</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>130;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>230</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element></diagram>
